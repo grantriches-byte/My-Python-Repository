@@ -1,87 +1,119 @@
-# Python Programming Fundamentals Project
+# Python Programming & Data Analysis Project
 
-This project was completed as part of a **Data Technician Bootcamp** and focuses on learning the fundamentals of Python programming using **Google Colab notebooks**.
+This project was completed as part of a **Data Technician Bootcamp** and focuses on learning the fundamentals of Python programming and introductory data analysis using **Pandas** within Google Colab notebooks.
 
-The exercises demonstrate how Python can be used to build logical programs, perform calculations, and interact with users through input and output. These foundational programming skills are essential for data analysis, automation, and building more advanced applications.
-
----
-
-## Project Overview
-
-The project consists of several Python programming exercises designed to introduce key programming concepts such as variables, conditional logic, loops, and user interaction. Programs collect user input, apply calculations, and display results using clear output messages.
-
-Examples include interactive greeting programs, number manipulation tasks, loop-based patterns, and calculations using user-provided values.
+The exercises demonstrate how Python can be used to build logical programs, perform calculations, interact with users, and analyse structured datasets. These foundational programming and data analysis skills are essential for data analytics, automation, and building more advanced data-driven applications.
 
 ---
 
-## Python Skills Demonstrated
+# Project Overview
 
-This project demonstrates several core Python programming concepts:
+This project includes a collection of Python exercises designed to introduce key programming concepts such as variables, conditional logic, loops, and user interaction. 
+
+In addition to Python fundamentals, the project also introduces **data analysis using the Pandas library**, where datasets are loaded, explored, and analysed to extract useful insights.
+
+The notebooks demonstrate how programming logic and data analysis tools can work together to solve real-world problems.
+
+---
+
+# Python Skills Demonstrated
+
+This project demonstrates several core Python programming concepts including:
 
 - Creating and using **variables**
 - Displaying output using the `print()` function
 - Collecting user input using the `input()` function
-- Performing **type casting** using `int()` to convert input into numbers
-- Writing **if statements** for logical decision making
-- Using **for loops** and **while loops** to repeat tasks
-- Performing **calculations and arithmetic operations**
-- Building programs that **interact with users**
+- Performing **type casting** using `int()`
+- Writing **if statements** for decision making
+- Using **for loops** and **while loops**
+- Performing **arithmetic calculations**
+- Building simple **interactive programs**
 
 ---
 
-## Example Programs
+# Pandas Data Analysis Skills
 
-### User Input and Greeting Program
+The project also introduces **data analysis using the Pandas library**, which is widely used in data science and analytics.
+
+Pandas was used to:
+
+- Import and work with datasets
+- Create and manipulate **DataFrames**
+- Explore dataset structure using `.info()`
+- Perform simple analysis on datasets
+- Identify patterns and key insights within data
+
+---
+
+# Example Python Programs
+
+## User Input and Greeting Program
 
 ![User Greeting Example](user-input-greeting.png)
 
-This program asks the user for their name and age using the `input()` function. The program then prints a personalised greeting message using `print()`.  
-This demonstrates **user interaction and string output formatting**.
+This program asks the user for their name and age using the `input()` function and prints a personalised greeting message using `print()`.
 
 ---
 
-### Number Manipulation and Type Casting
+## Number Manipulation and Type Casting
 
 ![Digit Reversal Example](digit-reversal.png)
 
-This program asks the user to enter a four-digit number. The input is converted to an integer using `int()` and mathematical operations are used to extract and rearrange the digits.
+This program asks the user to enter a four-digit number and performs calculations to rearrange the digits.
 
 This demonstrates:
-- **Type casting**
-- **integer arithmetic**
-- **logical problem solving**
+- Type casting
+- Integer arithmetic
+- Logical problem solving
 
 ---
 
-### Nested Loops Example
+## Nested Loop Pattern
 
 ![Nested Loop Pattern](nested-loops-pattern.png)
 
-This program uses **nested `for` loops** to generate a number pattern. Loops allow repeated execution of code and are commonly used for iterating through sequences or datasets.
-
-This demonstrates:
-- **for loops**
-- **nested loops**
-- controlling output formatting.
+This program uses nested `for` loops to generate a number pattern. Loops allow repeated execution of code and are commonly used when processing datasets or performing repeated tasks.
 
 ---
 
-### Loop-Based Calculation
+## Loop-Based Calculation
 
 ![Sum Loop Example](sum-loop.png)
 
-This program asks the user for a number and calculates the sum of numbers from **1 to the entered value** using a `for` loop.
-
-This demonstrates:
-- **loop iteration**
-- **incremental calculations**
-- working with **user input and arithmetic operations**
+This program calculates the sum of numbers from **1 to a user-defined value** using a `for` loop.
 
 ---
 
-## Tools Used
+# Pandas Examples
+
+## Creating a DataFrame
+
+![Pandas DataFrame Example](pandas-dataframe.png)
+
+This example demonstrates creating a **Pandas DataFrame from a list of dictionaries**, showing how structured data can be organised and prepared for analysis.
+
+---
+
+## Dataset Analysis
+
+![Pandas Analysis Example](pandas-analysis.png)
+
+This example analyses a dataset to identify the **top five vehicles with the highest average mileage**, demonstrating how Pandas can be used for filtering and ranking data.
+
+---
+
+## Exploring Data with `.info()`
+
+![Pandas Info Example](pandas-info.png)
+
+The `.info()` method provides an overview of the dataset structure, including column names, data types, and missing values. This is an important step in **data exploration and data cleaning**.
+
+---
+
+# Tools Used
 
 - **Python**
+- **Pandas**
 - **Google Colab**
 - **Jupyter Notebooks**
 
@@ -89,25 +121,33 @@ This demonstrates:
 
 ## Repository Structure
 
-```
 My-Python-Projects
-│
-├── Data_Technician_Workbook_Week_6_2026.docx
-├── python-notebook.ipynb
-├── user-input-greeting.png
-├── digit-reversal.png
-├── nested-loops-pattern.png
-├── sum-loop.png
-└── README.md
-```
+
+├── Data_Technician_Workbook_Week_6_2026.docx  
+│  
+├── Python_Day_1_Exercises_Grant_Riches.ipynb  
+├── Python_Day_2_Exercises_Grant_Riches.ipynb  
+│  
+├── PandasDataFrames_01_Grant_Riches.ipynb  
+├── PandasDataFrames_02_Grant_Riches.ipynb  
+├── Pandas_DataFrames_03_Grant_Riches.ipynb  
+│  
+├── user-input-greeting.png  
+├── digit-reversal.png  
+├── nested-loops-pattern.png  
+├── sum-loop.png  
+│  
+├── pandas-dataframe.png  
+├── pandas-analysis.png  
+├── pandas-info.png  
+│  
+└── README.md  
 
 ---
 
-## Google Colab Notebook
+## Google Colab Notebooks
 
-The full notebook containing the Python exercises can be viewed here:
-
-https://colab.research.google.com/drive/17QuzmT4tsGpZEjtAk4dyH46-EQcFHkKd
+The notebooks used in this project were developed using **Google Colab**, which allows Python code to be executed and shared in an interactive environment.
 
 ---
 
@@ -115,9 +155,9 @@ https://colab.research.google.com/drive/17QuzmT4tsGpZEjtAk4dyH46-EQcFHkKd
 
 Through this project I developed skills in:
 
-- Writing basic Python programs
-- Using variables and user input
-- Implementing conditional logic and loops
-- Performing calculations with Python
-- Building simple interactive programs
+- Writing Python programs using loops and conditional logic
+- Building interactive programs using user input
+- Performing calculations and logical operations
+- Working with datasets using **Pandas**
+- Exploring and analysing structured data
 - Using Google Colab notebooks for Python development
